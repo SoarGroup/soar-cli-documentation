@@ -46,7 +46,7 @@ structure and is specified by dot notation.
 
 Each path can be followed by `help` to print some help 
 info, or followed by `dir` to see the children of that path. 
-The \<state\> variable is the identifier for the substate you 
+The `<state>` variable is the identifier for the substate you 
 want to examine. For example, to do things to the topstate scene
 you would use `svs S1.scene`.
 
