@@ -17,13 +17,11 @@ indifferent-selection [-a] [setting]
 
 === Default Aliases ===
 
-||Alias||Equivalent Command||
-||-----||-----||
+|| *Alias* || *Equivalent Command* ||
 || `inds` || `indifferent-selection` ||
 
 == Options ==
-||Option||Description||
-||-----||-----||
+||*Option*||*Description*||
 || `-s, --stats` || Summary of settings ||
 || `policy` || Set exploration policy ||
 || `parameter [exploration policy parameters]`|| Get/Set exploration policy parameters (if value not given, returns the current value) ||
@@ -51,8 +49,8 @@ incurs a small performance cost.
 
 == Exploration Policies ==
 
-||Option||Description||
-||-----||-----|||| `-b, --boltzmann` || Tempered softmax (uses temperature) ||
+||*Option*||*Description*||
+|| `-b, --boltzmann` || Tempered softmax (uses temperature) ||
 || `-g, --epsilon-greedy` || Tempered greedy (uses epsilon) ||
 || `-x, --softmax` || Random, biased by numeric indifferent values (if a non-positive value is encountered, resorts to a uniform random selection) ||
 || `-f, --first` || Deterministic, first indifferent preference is selected ||
@@ -66,8 +64,7 @@ incurs a small performance cost.
 
 == Exploration Policy Parameter Auto-Reduction Policies ==
 
-||Parameter Name||Acceptable Values||Default Value||
-||-----||-----||-----||
+||*Parameter Name*||*Acceptable Values*||*Default Value*||
 || `exponential default` || `[0, 1]` || `1` ||
 || `linear` || `[0, inf]` || `0` ||
 
@@ -76,4 +73,3 @@ incurs a small performance cost.
 
 [cmd_numeric_indifferent_mode numeric-indifferent-mode]
 [cmd_rl rl]
-
