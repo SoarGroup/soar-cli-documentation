@@ -1,0 +1,30 @@
+#summary pbreak command documentation
+
+= pbreak =
+
+Toggle flag :interrupt on production rules which did not have it set as part of their original source commands.
+
+== Synopsis ==
+
+{{{
+rl -c|--clear <production-name>
+rl -p|--print
+rl -s|--set <production-name>
+rl <production-name>
+}}}
+
+== Options ==
+
+|| `-c, --clear` || Clear flag :interrupt from a production rule. ||
+|| `-p, --print` || Print which production rules have had flag :interrupt added to them. ||
+|| `-s, --set` || Set flag :interrupt on a production rule. ||
+||  || Set flag :interrupt on a production rule. ||
+
+== Description ==
+
+The `pbreak` command can be used to toggle flag :interrupt on production rules which did not have it set as part
+of their original source commands. This is intended to be used for debugging purposes.
+
+== See Also ==
+
+[cmd_matches matches] [cmd_pwatch pwatch] [cmd_watch watch]
