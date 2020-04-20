@@ -11,15 +11,15 @@ add-wme id [^]attribute value [+]
 
 === Default Aliases ===
 
-|| `aw` || `add-wme` ||
+|| `aw` || `add-wme` ||    
 
 == Options ==
 
-|| `id` || Must be an existing identifier. ||
-|| `^` || Leading `^` on attribute is optional. ||
-|| `attribute` || Attribute can be any Soar symbol. Use `*` to have Soar create a new identifier. ||
-|| `value` || Value can be any soar symbol. Use `*` to have Soar create a new identifier. ||
-|| `+` || If the optional preference is specified, its value must be `+` (acceptable). ||
+|| `id` || Must be an existing identifier. ||    
+|| `^` || Leading `^` on attribute is optional. ||    
+|| `attribute` || Attribute can be any Soar symbol. Use `*` to have Soar create a new identifier. ||     
+|| `value` || Value can be any soar symbol. Use `*` to have Soar create a new identifier. ||    
+|| `+` || If the optional preference is specified, its value must be `+` (acceptable). ||    
 
 == Description ==
 
